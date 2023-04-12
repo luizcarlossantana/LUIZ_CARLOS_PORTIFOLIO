@@ -1,0 +1,337 @@
+body {
+    background-color: #181824;
+    color: white;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+}
+
+#conteiner {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#inicio {
+    background-color: #13131b;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#logo {
+
+    color: #7562E0;
+    font-size: 1.5rem;
+}
+
+#links {
+    display: flex;
+}
+
+
+
+.link {
+    list-style: none;
+    margin: 10px;
+    font-size: 1rem;
+
+
+
+}
+
+.link:hover {
+    color: #7562E0;
+}
+
+.baner {
+
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin-top: 100px;
+
+
+}
+
+#texto {
+    margin-right: 10%;
+ 
+}
+
+
+#texto h3 {
+
+
+    font-size: 2rem;
+}
+
+#texto h1 {
+    line-height: 75%;
+    font-size: 2.5rem;
+}
+
+
+#img {
+
+    height: 50%;
+    width: 50%;
+
+}
+
+
+
+
+.botao,
+.botao-02 {
+
+    margin-top: 20px;
+    margin-right: 25px;
+    width: 95px;
+    background-color: #7562E0;
+    padding: 10px 20px 10px 20px;
+    border: solid 2px #7562E0;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.botao-02 {
+    background-color: #181824;
+}
+
+#sobre-mim {
+
+    color: #7562E0;
+
+}
+
+
+#div-quadros {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.quadros {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 250px;
+    height: 250px;
+    background-color: #BDBDBD;
+    border-radius: 5px;
+
+
+}
+
+.quadros img ,.quadros h2 {
+    margin-left: 30px;
+}
+
+.quadros:hover {
+    background-color: #7562E0;
+}
+
+#titulo-grid {
+margin-top: 100px;
+    color: #7562E0;
+}
+
+#div-grid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+
+
+}
+
+
+.caixas-grid {
+    height: 350px;
+    width: 100%;
+    border: solid 2px white;
+    background-color: #181824;
+    border-radius: 10px;
+
+}
+
+#grid-01,
+#grid-03,
+#grid-05 {
+
+    border: solid 2px #7562E0;
+}
+
+#titulo-projetos{
+    margin-top: 100px;
+    color: #7562E0;
+}
+
+
+#div-projetos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: #31313F;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.projetos-dentro {
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+
+
+
+}
+
+.div-botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.botao-projetos {
+
+    margin-right: 10px;
+}
+
+
+.botao-projetos,
+.botao-projetos-02 {
+
+
+    width: 50%;
+    background-color: #7562E0;
+    padding: 10px 20px 10px 20px;
+    border: solid 2px #7562E0;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.botao-projetos-02 {
+
+    background-color: #181824;
+}
+
+#div-rodape {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+#rodape-01{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+#rodape-01 h1{
+
+    color: #7562E0;
+
+}
+
+#rodape-01 img{
+
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
+#rodape-02 {
+    display: flex;
+    flex-direction: column;
+}
+
+#rodape-02 input {
+    
+    outline: none;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+    background-color: #767676;
+    opacity: 50%;
+   
+    
+}
+
+#rodape-02 input::placeholder{
+
+    color:white;
+    padding-left: 10px;
+}
+
+
+#rodape-02 button{
+    background-color:#7562E0;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+#rodape-final{
+
+    margin-top:150px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#rodape-final li{
+
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #BDBDBD;
+
+}
+
+#final{
+    margin-top:15px;
+    margin-bottom: 20px;
+}
+#final img{
+    
+    margin-right: 5px;
+    width: 20px;
+    height: 20px ;
+
+}
